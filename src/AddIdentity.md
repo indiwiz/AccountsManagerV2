@@ -9,3 +9,5 @@
 - Added `AccountsManagerDbContext.cs`
 - Add reference of data project into web project
   - cmd: from web project folder> `dotnet add reference ...Data.csproj`
+- Added AspNetCore Identity EntityFrameworkCore
+  - cmd: `dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore`
