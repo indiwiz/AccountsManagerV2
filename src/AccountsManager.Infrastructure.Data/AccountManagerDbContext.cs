@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AccountsManager.Infrastructure.Data
 {
-     public class AccountManagerDbContext : IdentityDbContext
+    public class AccountManagerDbContext : IdentityDbContext
     {
         public AccountManagerDbContext (
             DbContextOptions<AccountManagerDbContext> options)

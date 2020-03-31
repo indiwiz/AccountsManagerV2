@@ -21,7 +21,7 @@ namespace AccountsManager.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AccountManagerDbContext>(options =>
-                options.UseSqlite(Configuration.GetConnectionString("AccountManagerUserContext")));
+                options.UseSqlite(Configuration.GetConnectionString("AccountManagerDbContext")));
 
             services.AddRazorPages();
         }
