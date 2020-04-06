@@ -11,5 +11,6 @@ namespace AccountsManager.Infrastructure.Data
             : base(options)
         {
         }
+        
     }
 }
