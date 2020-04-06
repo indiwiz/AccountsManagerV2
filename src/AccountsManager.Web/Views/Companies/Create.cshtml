@@ -7,8 +7,9 @@
 @using (Html.BeginForm())
 {
     <div>
-        @Html.TextAreaFor(b => b.CompanyName, new {@class = "form-control", placeholder = "Company Name"})
+        <span asp-validation-for="CompanyName" class="text-danger"></span>
+        @Html.TextAreaFor(company => company.CompanyName, new {@class = "form-control", placeholder = "Company Name"})
     </div>
-    <a class="btn btn-success" class="nav-link text-dark" asp-area="" asp-controller="Companies" asp-action="Index">Create Company</a>
+    <button type="submit" class="btn btn-success" class="nav-link text-dark">Create Company</button>
 }
 
