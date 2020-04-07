@@ -25,7 +25,7 @@ namespace AccountsManager.Web.Controllers
                 return View();
             }
 
-            return Redirect("Index");
+            return RedirectToAction("Index");
         }
 
     }
